@@ -28,8 +28,11 @@
 
 - (void) buttonWasPressed:(id)sender
 {
-    NSLog(self.textField.text);
-    self.label.s
+    
+    NSString *text = self.textField.text;
+    NSLog(@"You said %@", text);
+    
+    self.label.text = text;
 }
 
 @end

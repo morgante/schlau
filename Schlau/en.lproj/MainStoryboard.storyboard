@@ -41,17 +41,18 @@
                         <color key="backgroundColor" red="0.64294823287893754" green="0.60306444187378083" blue="0.71635105298913038" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="dw4-QN-4pO" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="14h-Bi-Oti"/>
+                            <constraint firstItem="FKC-ZQ-Nca" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="118" id="1k3-rX-V7s"/>
                             <constraint firstItem="FKC-ZQ-Nca" firstAttribute="top" secondItem="3" secondAttribute="top" constant="71" id="76O-cL-jwr"/>
                             <constraint firstItem="dw4-QN-4pO" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="X9D-rj-ur4"/>
                             <constraint firstAttribute="trailing" secondItem="HXp-3d-y6V" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Zas-z5-7tl"/>
                             <constraint firstItem="HXp-3d-y6V" firstAttribute="top" secondItem="FKC-ZQ-Nca" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="c0k-ni-MX0"/>
-                            <constraint firstItem="FKC-ZQ-Nca" firstAttribute="centerX" secondItem="HXp-3d-y6V" secondAttribute="centerX" type="default" id="duy-sZ-Y3W"/>
                             <constraint firstItem="dw4-QN-4pO" firstAttribute="top" secondItem="HXp-3d-y6V" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="jtm-FI-bLg"/>
                             <constraint firstItem="HXp-3d-y6V" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="wev-Hd-8vL"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="button" destination="dw4-QN-4pO" id="9H4-MT-8Kf"/>
+                        <outlet property="label" destination="FKC-ZQ-Nca" id="oEN-Jr-wJd"/>
                         <outlet property="textField" destination="HXp-3d-y6V" id="tI5-ze-Rex"/>
                     </connections>
                 </viewController>

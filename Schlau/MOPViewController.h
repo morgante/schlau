@@ -10,4 +10,10 @@
 
 @interface MOPViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UIButton *button;
+@property (nonatomic, strong) IBOutlet UITextField *textField;
+@property (nonatomic, strong) IBOutlet UILabel *label;
+
+- (IBAction) buttonWasPressed:(id) sender;
+
 @end

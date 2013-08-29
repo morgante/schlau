@@ -26,4 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) buttonWasPressed:(id)sender
+{
+    NSLog(self.textField.text);
+    self.label.s
+}
+
 @end
